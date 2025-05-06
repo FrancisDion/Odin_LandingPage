@@ -126,3 +126,46 @@ banner img {
     color: black;
     font-style: italic;
 }
+
+/*Call to action section*/
+
+.callToAction {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    padding: 30px 70px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.cta-container h3 {
+    color: white;
+}
+
+.ctaButton {
+    background-color: #3882F6;
+    border: solid 1px white;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/*Footer Section*/
+
+.footer {
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
